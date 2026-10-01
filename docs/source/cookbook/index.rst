@@ -32,6 +32,7 @@ Recipes in the SEPAL cookbook include:
     class_change
     band_math
     sampling_design
+    pyeo_fas
 
 Gallery
 -------
