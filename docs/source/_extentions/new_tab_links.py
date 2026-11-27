@@ -1,10 +1,23 @@
-"""Open external links from the remote-access guides in a new browser tab."""
+"""Open external links from selected pages in a new browser tab."""
 
 from urllib.parse import urlparse
 
 from docutils import nodes
 
-DOCNAMES = {"developers/ssh_session", "setup/ssh_keys", "setup/session_storage"}
+DOCNAMES = {
+    "developers/ssh_session",
+    "setup/ssh_keys",
+    "setup/session_storage",
+    "cookbook/ccdc",
+    "cookbook/ccdc_slice",
+    "cookbook/class_change",
+    "cookbook/classification",
+    "cookbook/optical_mosaic",
+    "cookbook/radar_mosaic",
+    "cookbook/time_series",
+    "feature/tasks",
+    "feature/aoi_selector",
+}
 
 # Absolute links to this documentation are internal links, even with a scheme.
 INTERNAL_HOSTS = {"docs.sepal.io"}
